@@ -8,6 +8,6 @@ public class CanJump {
             r = Math.max(l+nums[l], r);
             l++;
         }
-        return r>=n-1;
+        return r>=n-1; 
     }
 }
