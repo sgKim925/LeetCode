@@ -1,6 +1,10 @@
 package Solutions;
 
 public class Exist {
+    /*
+     * 以不同单元格为起始点搜索时，应当把循环遍历入口的操作放在主逻辑中
+     * 回溯动作只回溯当前位置的周围
+     */
     public boolean backTracking(
         char[][] board, boolean[][] visited, 
         char[] arr, int pointer,
