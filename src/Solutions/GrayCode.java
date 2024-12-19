@@ -5,6 +5,8 @@ import java.util.List;
 
 public class GrayCode {
     // 格雷码公式：第i位的格雷码为 i/2 ^ i
+    //
+    // 令解： n位格雷码等于n-1位格雷码正序 + n-1位格雷码填一的倒序
     List<Integer> ans;
     boolean[] shown;
 
